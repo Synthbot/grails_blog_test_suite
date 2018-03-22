@@ -1,0 +1,4 @@
+class GrailsSearchResults < GrailsBlogHome
+
+
+end
