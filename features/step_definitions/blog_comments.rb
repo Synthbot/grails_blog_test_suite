@@ -14,14 +14,15 @@ When(/^I add my genius comment to the blog post$/) do
 end
 
 Then(/^my genius comment is at the top of the blog post comments$/) do
-  sleep 3
-  @current_page.display_comments
+
+
   expect(@current_page.comment_item).to include(@data[:comment])
 end
 
 
 Then(/^I should see comments left by other readers$/) do
-  sleep 3
-  @current_page.display_comments
+
+  @data = { name: 'saife', comment: 'this stinks'}
+
   expect(@current_page.comment_item).to include(@data[:comment])
 end
