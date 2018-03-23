@@ -66,20 +66,3 @@ Then(/^I should see the blog post$/) do
 
 end
 
-When(/^I search for a blog post$/) do
-  pending
-end
-
-Then(/^I should see posts with that value in the title$/) do
-  pending
-end
-
-When(/^I search for a blog post using information that will return a single result$/) do
-  visit GrailsBlogHome
-  @current_page.search_for 'Ozymandias'
-  on GrailsSearchResults
-end
-
-Then(/^I should see only that post$/) do
-  expect(@current_page.number_of_posts).to be 1
-end

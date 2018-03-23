@@ -12,7 +12,7 @@ class GrailsBlogHome < BasePage
   divs(:posts, class: 'individualPost')
   div(:topPost, :class => "individualPost")
   link(:topPostLink, :class => "blogTitle")
-  text_field(:searchText, id: 'searchBar')
+  text_field(:searchText, id: 'query')
   button(:submitSearch, id: 'searchButton')
 
   def number_of_posts
