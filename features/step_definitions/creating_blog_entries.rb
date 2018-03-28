@@ -1,5 +1,8 @@
 Given(/^(?:I am| (?:a|the) user has) logged in as a blogger$/) do
-  visit GrailsBlogHome
+  visit(LoginPage)
+  @current_page.username = 'me'
+  @current_page.password= 'password'
+  @current_page.login
 end
 
 When(/^I publish a new blog post$/) do

@@ -1,6 +1,6 @@
 class GrailsBlogHome < BasePage
 
-  page_url "http://localhost:8080/"
+  page_url "http://localhost:8080/blogPost"
 
   link(:new_blog_post, :class => 'create')
 

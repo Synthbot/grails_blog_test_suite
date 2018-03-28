@@ -6,6 +6,11 @@ require 'watir'
 Given(/^my favorite blogger has been very active$/) do
   start_browser
 
+  visit(LoginPage)
+  @current_page.username = 'me'
+  @current_page.password= 'password'
+  @current_page.login
+
   visit(GrailsBlogHome).new_blog_post
   on_page GrailsCreateForm
   @current_page.title = "Hello World"
@@ -35,13 +40,17 @@ Given(/^my favorite blogger has been very active$/) do
   @current_page.title = "Do not go gentle into that good night"
   @current_page.body = "Rage, rage against the dying of the light"
   @current_page.submit
-
+  visit LogoutPage
 
   sleep 1
 
 end
 
 When(/^I visit the blog for my favorite blogger$/) do
+  visit LoginPage
+  @current_page.username = 'commenter'
+  @current_page.password= '4321abcd'
+  @current_page.login
   visit GrailsBlogHome
 end
 

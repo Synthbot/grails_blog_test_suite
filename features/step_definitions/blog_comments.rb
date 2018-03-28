@@ -7,7 +7,7 @@ Given(/^I am reading a blog post from my favorite blogger$/) do
 end
 
 When(/^I add my genius comment to the blog post$/) do
-  @data = { name: 'saife', comment: 'this stinks'}
+  @data = {comment: 'this stinks'}
   @current_page.display_comments
   @current_page.populate_page_with @data
   @current_page.save
