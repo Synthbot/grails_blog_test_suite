@@ -5,6 +5,13 @@ Given(/^I am reading a blog post from my favorite blogger$/) do
   on_page GrailsShow
 
 end
+When(/^I log into the blog$/) do
+  visit LoginPage
+  @current_page.username = 'commenter'
+  @current_page.password= '4321abcd'
+  @current_page.login
+  visit GrailsBlogHome
+end
 
 When(/^I add my genius comment to the blog post$/) do
   @data = {comment: 'this stinks'}
@@ -26,3 +33,4 @@ Then(/^I should see comments left by other readers$/) do
 
   expect(@current_page.comment_item).to include(@data[:comment])
 end
+

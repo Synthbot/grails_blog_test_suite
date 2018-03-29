@@ -10,31 +10,31 @@ Given(/^my favorite blogger has been very active$/) do
   @current_page.username = 'me'
   @current_page.password= 'password'
   @current_page.login
-
-  visit(GrailsBlogHome).new_blog_post
-  on_page GrailsCreateForm
-  @current_page.title = "Hello World"
-  @current_page.body = "Goodbye World"
-  @current_page.submit
-
-  visit(GrailsBlogHome).new_blog_post
-  on_page GrailsCreateForm
-  @current_page.title = "ello World"
-  @current_page.body = "Goodbye World"
-  @current_page.submit
-
-  visit(GrailsBlogHome).new_blog_post
-  on_page GrailsCreateForm
-  @current_page.title = "llo World"
-  @current_page.body = "Goodbye World"
-  @current_page.submit
-
-  visit(GrailsBlogHome).new_blog_post
-  on_page GrailsCreateForm
-  @current_page.title = "o World"
-  @current_page.body = "Goodbye World"
-  @current_page.submit
-
+  #
+  # visit(GrailsBlogHome).new_blog_post
+  # on_page GrailsCreateForm
+  # @current_page.title = "Hello World"
+  # @current_page.body = "Goodbye World"
+  # @current_page.submit
+  #
+  # visit(GrailsBlogHome).new_blog_post
+  # on_page GrailsCreateForm
+  # @current_page.title = "ello World"
+  # @current_page.body = "Goodbye World"
+  # @current_page.submit
+  #
+  # visit(GrailsBlogHome).new_blog_post
+  # on_page GrailsCreateForm
+  # @current_page.title = "llo World"
+  # @current_page.body = "Goodbye World"
+  # @current_page.submit
+  #
+  # visit(GrailsBlogHome).new_blog_post
+  # on_page GrailsCreateForm
+  # @current_page.title = "o World"
+  # @current_page.body = "Goodbye World"
+  # @current_page.submit
+  #
   visit(GrailsBlogHome).new_blog_post
   on_page GrailsCreateForm
   @current_page.title = "Do not go gentle into that good night"
@@ -57,7 +57,7 @@ end
 Then(/^I should see a summary of my favorite blogger's (\d+) most recent posts in reverse order$/) do |expected_number_of_posts|
   # expect(@current_page.number_of_posts).to eq expected_number_of_posts
 
-  post_dates = @current_page.dates_of_posts
+  post_dates = @current_page.datePosted
 
 
   expect(post_dates[0]).to be > post_dates[1]

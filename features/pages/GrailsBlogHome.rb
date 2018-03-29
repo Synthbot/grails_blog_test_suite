@@ -12,6 +12,7 @@ class GrailsBlogHome < BasePage
   divs(:posts, class: 'individualPost')
   div(:topPost, :class => "individualPost")
   link(:topPostLink, :class => "blogTitle")
+  spans(:datePosted, class: 'postDate')
   text_field(:searchText, id: 'query')
   button(:submitSearch, id: 'searchButton')
 
