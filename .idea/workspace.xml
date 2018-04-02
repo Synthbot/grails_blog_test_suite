@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoTestManager">
+    <enabled-run-configurations>
+      <run-configuration type="CucumberRunConfigurationType" name="blog_comments.feature" />
+    </enabled-run-configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7b869417-7288-43ca-8838-164f4b983b1a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/features/pages/GrailsShow.rb" afterPath="$PROJECT_DIR$/features/pages/GrailsShow.rb" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/blog_comments.rb" afterPath="$PROJECT_DIR$/features/step_definitions/blog_comments.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/grails_blog_test_suite@blog_comments_feature.coverage" NAME="blog_comments.feature Coverage Results" MODIFIED="1522674733277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grails_blog_test_suite" />
+    <SUITE FILE_PATH="coverage/grails_blog_test_suite@blog_comments_feature.coverage" NAME="blog_comments.feature Coverage Results" MODIFIED="1522693373662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grails_blog_test_suite" />
     <SUITE FILE_PATH="coverage/grails_blog_test_suite@creating_blog_entries.coverage" NAME="creating_blog_entries Coverage Results" MODIFIED="1522682197602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/step_definitions" MODULE_NAME="grails_blog_test_suite" />
     <SUITE FILE_PATH="coverage/grails_blog_test_suite@reading_blog_entries_feature.coverage" NAME="reading_blog_entries.feature Coverage Results" MODIFIED="1522691374697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grails_blog_test_suite" />
     <SUITE FILE_PATH="coverage/grails_blog_test_suite@searchability_feature.coverage" NAME="searchability.feature Coverage Results" MODIFIED="1522681721558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grails_blog_test_suite" />
@@ -22,21 +28,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="675">
-      <file leaf-file-name="reading_blog_entries.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/reading_blog_entries.feature">
+      <file leaf-file-name="blog_comments.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/blog_comments.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="275">
+              <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GrailsBlogHome.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/pages/GrailsBlogHome.rb">
+      <file leaf-file-name="searchability_steps.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/searchability_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-275">
-              <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="199">
+              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog_comments.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/blog_comments.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -45,78 +61,8 @@
       <file leaf-file-name="GrailsShow.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/pages/GrailsShow.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_page.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/pages/login_page.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grails_search_results.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/pages/grails_search_results.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_page.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/pages/base_page.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="creating_blog_entries.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/creating_blog_entries.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog_comments.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/blog_comments.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reading_blog_entries_steps.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/reading_blog_entries_steps.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="creating_blog_entries.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/creating_blog_entries.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="200">
+              <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -148,7 +94,6 @@
         <option value="$PROJECT_DIR$/features/pages/login_page.rb" />
         <option value="$PROJECT_DIR$/features/pages/logout_page.rb" />
         <option value="$PROJECT_DIR$/features/blog_comments.feature" />
-        <option value="$PROJECT_DIR$/features/step_definitions/blog_comments.rb" />
         <option value="$PROJECT_DIR$/features/pages/grails_search_results.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/searchability_steps.rb" />
         <option value="$PROJECT_DIR$/features/searchability.feature" />
@@ -158,6 +103,7 @@
         <option value="$PROJECT_DIR$/features/step_definitions/creating_blog_entries.rb" />
         <option value="$PROJECT_DIR$/features/reading_blog_entries.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/reading_blog_entries_steps.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/blog_comments.rb" />
         <option value="$PROJECT_DIR$/features/pages/GrailsShow.rb" />
       </list>
     </option>
@@ -249,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber.reading_blog_entries.feature">
+  <component name="RunManager" selected="Cucumber.blog_comments.feature">
     <configuration name="Scenario: New Blog Post" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="grails_blog_test_suite" />
@@ -270,6 +216,37 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/creating_blog_entries.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^New Blog Post$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+    </configuration>
+    <configuration name="blog_comments.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="grails_blog_test_suite" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/blog_comments.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -343,37 +320,6 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
     </configuration>
-    <configuration name="searchability.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="grails_blog_test_suite" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/searchability.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-    </configuration>
     <configuration name="creating_blog_entries" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="grails_blog_test_suite" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -391,17 +337,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Cucumber.reading_blog_entries.feature" />
       <item index="1" class="java.lang.String" itemvalue="Cucumber.creating_blog_entries.feature" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber.searchability.feature" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.creating_blog_entries" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: New Blog Post" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.creating_blog_entries" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: New Blog Post" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber.blog_comments.feature" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber.reading_blog_entries.feature" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.creating_blog_entries.feature" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: New Blog Post" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.creating_blog_entries" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber.searchability.feature" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber.blog_comments.feature" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.reading_blog_entries.feature" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber.creating_blog_entries.feature" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: New Blog Post" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.creating_blog_entries" />
       </list>
     </recent_temporary>
   </component>
@@ -426,7 +372,7 @@
       <workItem from="1522433401233" duration="59000" />
       <workItem from="1522433486726" duration="2832000" />
       <workItem from="1522674341116" duration="49000" />
-      <workItem from="1522674728556" duration="13841000" />
+      <workItem from="1522674728556" duration="15437000" />
     </task>
     <task id="LOCAL-00001" summary="Added functionality for Hooplog">
       <created>1522680669645</created>
@@ -449,43 +395,50 @@
       <option name="project" value="LOCAL" />
       <updated>1522691097805</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Green on creating and reading, working on other tests">
+      <created>1522691827749</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1522691827749</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="creating_blog_entries_feature - 2018.04.02 at 13h 44m 16s.xml">
-      <configuration name="creating_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="blog_comments_feature - 2018.04.02 at 14h 13m 05s.xml">
+      <configuration name="blog_comments.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="creating_blog_entries_feature - 2018.04.02 at 13h 45m 45s.xml">
-      <configuration name="creating_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="blog_comments_feature - 2018.04.02 at 14h 13m 10s.xml">
+      <configuration name="blog_comments.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="reading_blog_entries_feature - 2018.04.02 at 13h 34m 11s.xml">
-      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="blog_comments_feature - 2018.04.02 at 14h 13m 41s.xml">
+      <configuration name="blog_comments.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="reading_blog_entries_feature - 2018.04.02 at 13h 34m 46s.xml">
-      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="blog_comments_feature - 2018.04.02 at 14h 13m 49s.xml">
+      <configuration name="blog_comments.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="reading_blog_entries_feature - 2018.04.02 at 13h 36m 17s.xml">
-      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="blog_comments_feature - 2018.04.02 at 14h 15m 09s.xml">
+      <configuration name="blog_comments.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="reading_blog_entries_feature - 2018.04.02 at 13h 37m 34s.xml">
-      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="blog_comments_feature - 2018.04.02 at 14h 17m 06s.xml">
+      <configuration name="blog_comments.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="reading_blog_entries_feature - 2018.04.02 at 13h 41m 09s.xml">
-      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="blog_comments_feature - 2018.04.02 at 14h 18m 24s.xml">
+      <configuration name="blog_comments.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="reading_blog_entries_feature - 2018.04.02 at 13h 43m 13s.xml">
-      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="blog_comments_feature - 2018.04.02 at 14h 21m 40s.xml">
+      <configuration name="blog_comments.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="reading_blog_entries_feature - 2018.04.02 at 13h 46m 36s.xml">
-      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="blog_comments_feature - 2018.04.02 at 14h 22m 23s.xml">
+      <configuration name="blog_comments.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="reading_blog_entries_feature - 2018.04.02 at 13h 49m 48s.xml">
-      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="blog_comments_feature - 2018.04.02 at 14h 23m 04s.xml">
+      <configuration name="blog_comments.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28742000" />
+    <option name="totallyTimeSpent" value="30338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1611" y="-11" width="1622" height="862" extended-state="6" />
@@ -551,7 +504,8 @@
     <MESSAGE value="Added functionality for Hooplog" />
     <MESSAGE value="Squashed text bug" />
     <MESSAGE value="Green on creating, finalizing reading tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Green on creating, finalizing reading tests" />
+    <MESSAGE value="Green on creating and reading, working on other tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Green on creating and reading, working on other tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -830,26 +784,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/blog_comments.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/helpers/browser_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/pages/GrailsCreateForm.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -882,22 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
           <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/blog_comments.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/searchability_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -936,24 +858,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/reading_blog_entries_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+        <state relative-caret-position="725">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="33" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/GrailsCreateForm.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/pages/GrailsBlogHome.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-275">
+        <state relative-caret-position="175">
           <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/blog_comments.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/blog_comments.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/searchability_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/pages/GrailsShow.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="200">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding />
         </state>
       </provider>
