@@ -3,18 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7b869417-7288-43ca-8838-164f4b983b1a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/features/pages/GrailsBlogHome.rb" afterPath="$PROJECT_DIR$/features/pages/GrailsBlogHome.rb" />
       <change beforePath="$PROJECT_DIR$/features/pages/GrailsCreateForm.rb" afterPath="$PROJECT_DIR$/features/pages/GrailsCreateForm.rb" />
-      <change beforePath="$PROJECT_DIR$/features/pages/GrailsShow.rb" afterPath="$PROJECT_DIR$/features/pages/GrailsShow.rb" />
-      <change beforePath="$PROJECT_DIR$/features/pages/grails_search_results.rb" afterPath="$PROJECT_DIR$/features/pages/grails_search_results.rb" />
-      <change beforePath="$PROJECT_DIR$/features/reading_blog_entries.feature" afterPath="$PROJECT_DIR$/features/reading_blog_entries.feature" />
-      <change beforePath="$PROJECT_DIR$/features/searchability.feature" afterPath="$PROJECT_DIR$/features/searchability.feature" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/blog_comments.rb" afterPath="$PROJECT_DIR$/features/step_definitions/blog_comments.rb" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/creating_blog_entries.rb" afterPath="$PROJECT_DIR$/features/step_definitions/creating_blog_entries.rb" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/reading_blog_entries_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/reading_blog_entries_steps.rb" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/searchability_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/searchability_steps.rb" />
-      <change beforePath="$PROJECT_DIR$/features/support/env.rb" afterPath="$PROJECT_DIR$/features/support/env.rb" />
-      <change beforePath="$PROJECT_DIR$/features/support/hooks.rb" afterPath="$PROJECT_DIR$/features/support/hooks.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,9 +14,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/grails_blog_test_suite@blog_comments_feature.coverage" NAME="blog_comments.feature Coverage Results" MODIFIED="1522674733277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grails_blog_test_suite" />
-    <SUITE FILE_PATH="coverage/grails_blog_test_suite@reading_blog_entries_feature.coverage" NAME="reading_blog_entries.feature Coverage Results" MODIFIED="1522679442139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grails_blog_test_suite" />
+    <SUITE FILE_PATH="coverage/grails_blog_test_suite@reading_blog_entries_feature.coverage" NAME="reading_blog_entries.feature Coverage Results" MODIFIED="1522681757390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grails_blog_test_suite" />
     <SUITE FILE_PATH="coverage/grails_blog_test_suite@creating_blog_entries_feature.coverage" NAME="creating_blog_entries.feature Coverage Results" MODIFIED="1522674796965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grails_blog_test_suite" />
-    <SUITE FILE_PATH="coverage/grails_blog_test_suite@searchability_feature.coverage" NAME="searchability.feature Coverage Results" MODIFIED="1522679519197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grails_blog_test_suite" />
+    <SUITE FILE_PATH="coverage/grails_blog_test_suite@searchability_feature.coverage" NAME="searchability.feature Coverage Results" MODIFIED="1522681721558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grails_blog_test_suite" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="675">
@@ -71,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searchability_steps.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="searchability_steps.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/searchability_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
+            <state relative-caret-position="174">
               <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding />
             </state>
@@ -91,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GrailsCreateForm.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GrailsCreateForm.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/pages/GrailsCreateForm.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="225">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -164,9 +153,9 @@
         <option value="$PROJECT_DIR$/features/pages/grails_search_results.rb" />
         <option value="$PROJECT_DIR$/features/pages/GrailsShow.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/reading_blog_entries_steps.rb" />
-        <option value="$PROJECT_DIR$/features/pages/GrailsCreateForm.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/searchability_steps.rb" />
         <option value="$PROJECT_DIR$/features/searchability.feature" />
+        <option value="$PROJECT_DIR$/features/pages/GrailsCreateForm.rb" />
       </list>
     </option>
   </component>
@@ -257,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber.searchability.feature">
+  <component name="RunManager" selected="Cucumber.reading_blog_entries.feature">
     <configuration name="blog_comments.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="grails_blog_test_suite" />
@@ -415,8 +404,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber.searchability.feature" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.reading_blog_entries.feature" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber.reading_blog_entries.feature" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.searchability.feature" />
         <item index="2" class="java.lang.String" itemvalue="Cucumber.creating_blog_entries.feature" />
         <item index="3" class="java.lang.String" itemvalue="Cucumber.blog_comments.feature" />
       </list>
@@ -443,14 +432,19 @@
       <workItem from="1522433401233" duration="59000" />
       <workItem from="1522433486726" duration="2832000" />
       <workItem from="1522674341116" duration="49000" />
-      <workItem from="1522674728556" duration="5102000" />
+      <workItem from="1522674728556" duration="6289000" />
     </task>
+    <task id="LOCAL-00001" summary="Added functionality for Hooplog">
+      <created>1522680669645</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522680669645</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="reading_blog_entries_feature - 2018.04.02 at 10h 11m 51s.xml">
-      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
     <history-entry file="reading_blog_entries_feature - 2018.04.02 at 10h 16m 40s.xml">
       <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
@@ -466,8 +460,8 @@
     <history-entry file="reading_blog_entries_feature - 2018.04.02 at 10h 31m 53s.xml">
       <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="searchability_feature - 2018.04.02 at 09h 19m 48s.xml">
-      <configuration name="searchability.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="reading_blog_entries_feature - 2018.04.02 at 11h 10m 03s.xml">
+      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
     <history-entry file="searchability_feature - 2018.04.02 at 10h 27m 55s.xml">
       <configuration name="searchability.feature" configurationId="CucumberRunConfigurationType" />
@@ -478,9 +472,12 @@
     <history-entry file="searchability_feature - 2018.04.02 at 10h 32m 08s.xml">
       <configuration name="searchability.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
+    <history-entry file="searchability_feature - 2018.04.02 at 11h 08m 50s.xml">
+      <configuration name="searchability.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20003000" />
+    <option name="totallyTimeSpent" value="21190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1611" y="-11" width="1622" height="862" extended-state="6" />
@@ -540,6 +537,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added functionality for Hooplog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added functionality for Hooplog" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -890,22 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/pages/base_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/pages/GrailsCreateForm.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/reading_blog_entries_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-25">
@@ -940,8 +925,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/searchability_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
+        <state relative-caret-position="174">
           <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/base_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/GrailsCreateForm.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
