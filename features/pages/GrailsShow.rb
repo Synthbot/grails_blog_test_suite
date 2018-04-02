@@ -8,7 +8,7 @@ class GrailsShow < BasePage
 =end
   button(:Show, :id => 'ShowPost')
   h1(:title, :id => 'title')
-  span(:body ,:id => 'body')
+  h3(:body ,:id => 'body')
   list_item(:comment_item, :class => 'commentItem')
 
   def display_comments

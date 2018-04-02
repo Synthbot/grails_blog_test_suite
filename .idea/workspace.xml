@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b869417-7288-43ca-8838-164f4b983b1a" name="Default" comment="Green on c">
+    <list default="true" id="7b869417-7288-43ca-8838-164f4b983b1a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/features/creating_blog_entries.feature" afterPath="$PROJECT_DIR$/features/creating_blog_entries.feature" />
-      <change beforePath="$PROJECT_DIR$/features/pages/GrailsBlogHome.rb" afterPath="$PROJECT_DIR$/features/pages/GrailsBlogHome.rb" />
       <change beforePath="$PROJECT_DIR$/features/pages/GrailsShow.rb" afterPath="$PROJECT_DIR$/features/pages/GrailsShow.rb" />
-      <change beforePath="$PROJECT_DIR$/features/reading_blog_entries.feature" afterPath="$PROJECT_DIR$/features/reading_blog_entries.feature" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/creating_blog_entries.rb" afterPath="$PROJECT_DIR$/features/step_definitions/creating_blog_entries.rb" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/reading_blog_entries_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/reading_blog_entries_steps.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,9 +15,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/grails_blog_test_suite@blog_comments_feature.coverage" NAME="blog_comments.feature Coverage Results" MODIFIED="1522674733277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grails_blog_test_suite" />
     <SUITE FILE_PATH="coverage/grails_blog_test_suite@creating_blog_entries.coverage" NAME="creating_blog_entries Coverage Results" MODIFIED="1522682197602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/step_definitions" MODULE_NAME="grails_blog_test_suite" />
-    <SUITE FILE_PATH="coverage/grails_blog_test_suite@reading_blog_entries_feature.coverage" NAME="reading_blog_entries.feature Coverage Results" MODIFIED="1522690949386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grails_blog_test_suite" />
+    <SUITE FILE_PATH="coverage/grails_blog_test_suite@reading_blog_entries_feature.coverage" NAME="reading_blog_entries.feature Coverage Results" MODIFIED="1522691374697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grails_blog_test_suite" />
     <SUITE FILE_PATH="coverage/grails_blog_test_suite@searchability_feature.coverage" NAME="searchability.feature Coverage Results" MODIFIED="1522681721558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grails_blog_test_suite" />
-    <SUITE FILE_PATH="coverage/grails_blog_test_suite@creating_blog_entries_feature.coverage" NAME="creating_blog_entries.feature Coverage Results" MODIFIED="1522691049199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grails_blog_test_suite" />
+    <SUITE FILE_PATH="coverage/grails_blog_test_suite@creating_blog_entries_feature.coverage" NAME="creating_blog_entries.feature Coverage Results" MODIFIED="1522691138579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grails_blog_test_suite" />
     <SUITE FILE_PATH="coverage/grails_blog_test_suite@Scenario__New_Blog_Post.coverage" NAME="Scenario: New Blog Post Coverage Results" MODIFIED="1522689187177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="grails_blog_test_suite" />
   </component>
   <component name="FileEditorManager">
@@ -30,18 +25,28 @@
       <file leaf-file-name="reading_blog_entries.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/reading_blog_entries.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="227">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GrailsShow.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GrailsBlogHome.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/pages/GrailsBlogHome.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-275">
+              <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GrailsShow.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/pages/GrailsShow.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="50">
+              <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -52,16 +57,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logout_page.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/pages/logout_page.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -87,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="creating_blog_entries.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="creating_blog_entries.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/creating_blog_entries.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="250">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,8 +105,8 @@
       <file leaf-file-name="reading_blog_entries_steps.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/reading_blog_entries_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+            <state relative-caret-position="345">
+              <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -254,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber.creating_blog_entries.feature">
+  <component name="RunManager" selected="Cucumber.reading_blog_entries.feature">
     <configuration name="Scenario: New Blog Post" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="grails_blog_test_suite" />
@@ -402,8 +397,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber.creating_blog_entries.feature" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.reading_blog_entries.feature" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber.reading_blog_entries.feature" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.creating_blog_entries.feature" />
         <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: New Blog Post" />
         <item index="3" class="java.lang.String" itemvalue="Ruby.creating_blog_entries" />
         <item index="4" class="java.lang.String" itemvalue="Cucumber.searchability.feature" />
@@ -431,7 +426,7 @@
       <workItem from="1522433401233" duration="59000" />
       <workItem from="1522433486726" duration="2832000" />
       <workItem from="1522674341116" duration="49000" />
-      <workItem from="1522674728556" duration="13095000" />
+      <workItem from="1522674728556" duration="13841000" />
     </task>
     <task id="LOCAL-00001" summary="Added functionality for Hooplog">
       <created>1522680669645</created>
@@ -447,21 +442,22 @@
       <option name="project" value="LOCAL" />
       <updated>1522681856551</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Green on creating, finalizing reading tests">
+      <created>1522691097805</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1522691097805</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="creating_blog_entries_feature - 2018.04.02 at 13h 44m 16s.xml">
       <configuration name="creating_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="reading_blog_entries_feature - 2018.04.02 at 13h 24m 07s.xml">
-      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="reading_blog_entries_feature - 2018.04.02 at 13h 28m 43s.xml">
-      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="reading_blog_entries_feature - 2018.04.02 at 13h 30m 27s.xml">
-      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="creating_blog_entries_feature - 2018.04.02 at 13h 45m 45s.xml">
+      <configuration name="creating_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
     <history-entry file="reading_blog_entries_feature - 2018.04.02 at 13h 34m 11s.xml">
       <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
@@ -481,9 +477,15 @@
     <history-entry file="reading_blog_entries_feature - 2018.04.02 at 13h 43m 13s.xml">
       <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
+    <history-entry file="reading_blog_entries_feature - 2018.04.02 at 13h 46m 36s.xml">
+      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="reading_blog_entries_feature - 2018.04.02 at 13h 49m 48s.xml">
+      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27996000" />
+    <option name="totallyTimeSpent" value="28742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1611" y="-11" width="1622" height="862" extended-state="6" />
@@ -548,7 +550,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added functionality for Hooplog" />
     <MESSAGE value="Squashed text bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Squashed text bug" />
+    <MESSAGE value="Green on creating, finalizing reading tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Green on creating, finalizing reading tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -859,14 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/pages/GrailsBlogHome.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-275">
-          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/pages/logout_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -923,34 +918,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/creating_blog_entries.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/reading_blog_entries.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="227">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/reading_blog_entries_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        <state relative-caret-position="345">
+          <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/GrailsBlogHome.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275">
+          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/pages/GrailsShow.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/creating_blog_entries.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="50">
+          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding />
         </state>
       </provider>
