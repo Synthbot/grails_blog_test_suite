@@ -1,55 +1,29 @@
 require 'rspec'
 require 'watir'
 
-
-
 Given(/^my favorite blogger has been very active$/) do
   start_browser
 
   visit(LoginPage)
-  @current_page.username = 'me'
-  @current_page.password= 'password'
+  @current_page.username = 'mbeebe'
+  @current_page.password= 'abc123'
   @current_page.login
-  #
-  # visit(GrailsBlogHome).new_blog_post
-  # on_page GrailsCreateForm
-  # @current_page.title = "Hello World"
-  # @current_page.body = "Goodbye World"
-  # @current_page.submit
-  #
-  # visit(GrailsBlogHome).new_blog_post
-  # on_page GrailsCreateForm
-  # @current_page.title = "ello World"
-  # @current_page.body = "Goodbye World"
-  # @current_page.submit
-  #
-  # visit(GrailsBlogHome).new_blog_post
-  # on_page GrailsCreateForm
-  # @current_page.title = "llo World"
-  # @current_page.body = "Goodbye World"
-  # @current_page.submit
-  #
-  # visit(GrailsBlogHome).new_blog_post
-  # on_page GrailsCreateForm
-  # @current_page.title = "o World"
-  # @current_page.body = "Goodbye World"
-  # @current_page.submit
-  #
+
   visit(GrailsBlogHome).new_blog_post
   on_page GrailsCreateForm
-  @current_page.title = "Do not go gentle into that good night"
-  @current_page.body = "Rage, rage against the dying of the light"
+  @current_page.title = "Matt likes fuzzy headphones"
+  @current_page.body = "Sennheiser, AKG, Grado"
   @current_page.submit
   visit LogoutPage
 
-  sleep 1
+  sleep 3
 
 end
 
 When(/^I visit the blog for my favorite blogger$/) do
   visit LoginPage
-  @current_page.username = 'commenter'
-  @current_page.password= '4321abcd'
+  @current_page.username = 'tyeager'
+  @current_page.password= 'abc321'
   @current_page.login
   visit GrailsBlogHome
 end
@@ -70,8 +44,8 @@ end
 
 Then(/^I should see the blog post$/) do
 
-  expect(@current_page.title).to eq("Do not go gentle into that good night")
-  expect(@current_page.body).to eq("Rage, rage against the dying of the light")
+  expect(@current_page.title).to eq("Matt likes fuzzy headphones")
+  expect(@current_page.body).to eq("Sennheiser, AKG, Grado")
 
 end
 

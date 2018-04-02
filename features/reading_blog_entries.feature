@@ -1,5 +1,5 @@
 Feature: View Blog Entries
-  In order to stay up todate
+  In order to stay up to date
   As a Reader
   I want to be able to view blog posts of my favorite blogger
 

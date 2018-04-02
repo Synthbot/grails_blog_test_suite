@@ -1,13 +1,8 @@
 class GrailsBlogHome < BasePage
 
-  page_url "http://localhost:8080/blogPost"
+  page_url "http://localhost:8080/"
 
   link(:new_blog_post, :class => 'create')
-
-  # def when_ready
-  #   self.title.when_present
-  #   self
-  # end
 
   divs(:posts, class: 'individualPost')
   div(:topPost, :class => "individualPost")
@@ -30,7 +25,7 @@ class GrailsBlogHome < BasePage
     @current_page.searchText = text
     @current_page.submitSearch
   end
-end # GrailsBlogPage
+end
 
 
 
