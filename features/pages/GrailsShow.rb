@@ -7,7 +7,7 @@ class GrailsShow < BasePage
   button(:save, :id => 'save')
 =end
   button(:Show, :id => 'ShowPost')
-  h2(:title, :id => 'title')
+  h1(:title, :id => 'title')
   span(:body ,:id => 'body')
   list_item(:comment_item, :class => 'commentItem')
 

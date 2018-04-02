@@ -16,7 +16,7 @@ Given(/^my favorite blogger has been very active$/) do
   @current_page.submit
   visit LogoutPage
 
-  sleep 3
+  sleep 1
 
 end
 
@@ -28,18 +28,10 @@ When(/^I visit the blog for my favorite blogger$/) do
   visit GrailsBlogHome
 end
 
-Then(/^I should see a summary of my favorite blogger's (\d+) most recent posts in reverse order$/) do |expected_number_of_posts|
-  # expect(@current_page.number_of_posts).to eq expected_number_of_posts
-
-  post_dates = @current_page.datePosted
-
-
-  expect(post_dates[0]).to be > post_dates[1]
-end
-
 When(/^I choose a blog post$/) do
-  @current_page.topPostLink
+  @current_page.topPost
   on_page GrailsShow
+  @browser.button(:id => "ShowPost").click
 end
 
 Then(/^I should see the blog post$/) do

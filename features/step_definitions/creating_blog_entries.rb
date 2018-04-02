@@ -12,13 +12,12 @@ When(/^I publish a new blog post$/) do
   @current_page.title = "Ben Franklin"
   @current_page.body = "Those who sacrifice liberty for security deserve neither, and will lose both"
   @current_page.submit
-w33
 end
 
 Then(/^I am notified that the blog post was successfully added$/) do
   visit GrailsBlogHome
 end
 
-And(/^the newly added blog post is at the top of the recent posts list$/) do
+And(/^I can see the post$/) do
   expect(@current_page.topPost).to include("Franklin")
 end

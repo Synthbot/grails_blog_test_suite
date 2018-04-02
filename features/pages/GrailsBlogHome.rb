@@ -5,7 +5,7 @@ class GrailsBlogHome < BasePage
   link(:new_blog_post, :class => 'create')
 
   divs(:posts, class: 'individualPost')
-  div(:topPost, :class => "individualPost")
+  div(:topPost, :class => "portalLink row")
   link(:topPostLink, :class => "blogTitle")
   spans(:datePosted, class: 'postDate')
   text_field(:searchText, id: 'query')

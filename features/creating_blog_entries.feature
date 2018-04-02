@@ -7,4 +7,4 @@ Feature: Post a Blog Entry
     Given I am logged in as a blogger
     When I publish a new blog post
     Then I am notified that the blog post was successfully added
-    And the newly added blog post is at the top of the recent posts list
+    And I can see the post
