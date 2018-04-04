@@ -4,18 +4,15 @@ require 'watir'
 Given(/^I create a new user$/) do
   visit GrailsBlogHome
   @browser.button(:id => "createUserButton").click
-
-  sleep 2
   on_page RegistrationPage
   @current_page.username = 'bob'
   @current_page.password = 'test'
   @browser.button(:id => "create").click
-
-  sleep 5
+  @browser.button(:id => "submit").click
 end
 
 When(/^I access a blog post$/) do
-  sleep 5
+  on_page GrailsBlogHome
   @current_page.topPost
   on_page GrailsShow
   @browser.button(:id => "ShowPost").click
