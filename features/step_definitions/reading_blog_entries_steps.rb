@@ -17,7 +17,6 @@ Given(/^my favorite blogger has been very active$/) do
   visit LogoutPage
 
   sleep 1
-
 end
 
 When(/^I visit the blog for my favorite blogger$/) do
@@ -35,7 +34,6 @@ When(/^I choose a blog post$/) do
 end
 
 Then(/^I should see the blog post$/) do
-
   expect(@current_page.title).to eq("Matt likes fuzzy headphones")
   expect(@current_page.body).to eq("Sennheiser, AKG, Grado")
 

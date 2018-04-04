@@ -6,7 +6,6 @@ Given(/^(?:I am| (?:a|the) user has) logged in as a blogger$/) do
 end
 
 When(/^I publish a new blog post$/) do
-
   visit(GrailsBlogHome).new_blog_post
   on_page GrailsCreateForm
   @current_page.title = "Ben Franklin"
