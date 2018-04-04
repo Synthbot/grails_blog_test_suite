@@ -3,9 +3,6 @@ class GrailsShow < BasePage
   div(:display_comments, :id => 'displayCommentTextBox')
   text_field(:name, :id => 'name')
   text_area(:comment,:id => 'commentText')
-=begin
-  button(:save, :id => 'save')
-=end
   button(:Show, :id => 'ShowPost')
   h1(:title, :id => 'title')
   h3(:body ,:id => 'body')
