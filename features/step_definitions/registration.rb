@@ -2,13 +2,12 @@ require 'rspec'
 require 'watir'
 
 Given(/^I create a new user$/) do
-  visit GrailsBlogHome
+  visit LoginPage
   @browser.button(:id => "createUserButton").click
   on_page RegistrationPage
   @current_page.username = 'bob'
-  @current_page.password = 'test'
+  @current_page.password = 'testpassword'
   @browser.button(:id => "create").click
-  @browser.button(:id => "submit").click
 end
 
 When(/^I access a blog post$/) do
